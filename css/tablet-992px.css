@@ -1,0 +1,77 @@
+.accomodations-container{
+  display: block;
+  flex-direction: column;
+}
+
+
+
+
+
+
+/*.accommodations-marseille{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: #F2F2F2;
+  border-radius: 1%;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.accomodations-most-pop{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: #F2F2F2;
+  border-radius: 1.5%;
+  width: 100%;
+}
+
+.most-pop-cards{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  margin: 20px 0px;
+}
+
+.accommodations-marseille-card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: white;
+  border-radius: 5%;
+  border: solid 5px white;
+  align-items: stretch;
+  box-shadow: 0 0 50px #b8b5b5;
+  height: 50em;
+  width: 60em;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.most-pop-card{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-radius: 4%;
+  border: solid white;
+  align-items: center;
+  box-shadow: 0 0 50px #b8b5b5;
+  width: 60em;
+  height: 25em;
+  margin-bottom: 20px;
+}
+
+.most-pop-text{
+display: block;
+flex-wrap: wrap;
+justify-content: right;
+margin-top: 15px;
+padding-top: 0px;
+margin-left: 5px;
+}
+*/

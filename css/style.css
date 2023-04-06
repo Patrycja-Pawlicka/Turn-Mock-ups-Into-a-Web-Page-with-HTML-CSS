@@ -1,12 +1,15 @@
 *{
   box-sizing: border-box;
+
 }
 
 body{
   display: block;
-  margin: 0px;
-  margin-top: 0px;
-  padding: 0px;
+  max-width: 1500px;
+  display: block;
+  margin: 0 auto;
+  justify-content: stretch;
+
 }
 
 button{
@@ -311,6 +314,8 @@ i.fa.fa-info{
   background-color: #F2F2F2;
   border-radius: 1.5%;
   width: 65%;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .accommodations-marseille-heading{
@@ -324,17 +329,18 @@ i.fa.fa-info{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   max-width: 100%;
   margin: 20px;
-  margin-right: 0px;
-  margin-left: 0px;
+  align-content: center;
+  align-items: center;
 }
 
 .accommodations-marseille-link-button{
   text-decoration: none;
   border: 0px;
   min-width: 25%;
+  width: 23em;
   padding: 0px;
   margin: 0px;
 
@@ -347,14 +353,11 @@ i.fa.fa-info{
   background-color: white;
   border-radius: 5%;
   border: solid white;
-  align-items: stretch;
+  align-items: center;
   box-shadow: 0 0 10px #b8b5b5;
-  height: 20em;
-  width: 23em;
-  margin-bottom: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-  
+  height: 15em;
+  width: 17em;
+  margin-bottom: 15px;
 }
 
 .accommodations-marseille-card a{
@@ -368,14 +371,11 @@ i.fa.fa-info{
   border-top-right-radius: 5%;
   border-bottom: 0;
   justify-content: center;
-
   width: 100%;
-  height: 70%;
+  height: 60%;
   margin: 0px;
   margin-bottom: 8px;
   padding: 0px;
-
-
 }
 
 .accommodations-marseille-card-text{
@@ -383,8 +383,9 @@ i.fa.fa-info{
   justify-content: left;
   margin: 0px;
   padding-left: 25px;
-  padding-bottom: 15px;
+
 }
+
 .accommodations-marseille-more-heading{
   display: flex;
   align-content: center;
@@ -393,6 +394,7 @@ i.fa.fa-info{
 
 
 }
+
 .accommodations-marseille-more-heading a{
   text-decoration:none;
   border:none;
@@ -407,7 +409,7 @@ i.fa.fa-info{
   flex-direction: column;
   background-color: #F2F2F2;
   border-radius: 1.5%;
-  width: 33%;
+  width: 30%;
 }
 
 .most-pop-heading{
@@ -433,6 +435,10 @@ i.fa.fa-info{
   border: 0px;
   padding: 0px;
 }
+.most-pop-cards-link-button a{
+  text-decoration: none;
+  background-color: #F2F2F2
+}
 
 .most-pop-card{
   display: flex;
@@ -443,9 +449,8 @@ i.fa.fa-info{
   border: solid white;
   align-items: center;
   box-shadow: 0 0 10px #b8b5b5;
-  width: 30em;
-  height: 13em;
-  margin-bottom: 20px;
+  width: 20em;
+  height: 11em;
 }
 
 .most-pop-img{
