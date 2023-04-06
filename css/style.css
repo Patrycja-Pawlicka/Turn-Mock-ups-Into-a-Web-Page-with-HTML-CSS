@@ -15,6 +15,28 @@ button{
   padding: 0px;
 }
 
+h3{
+  display: flex;
+  font-family: 'Raleway';
+  font-size: medium;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  
+}
+
+p{
+  display: flex;
+  font-family: 'Raleway';
+  font-size: small;
+  padding: 0px;
+  margin-top: 0px;
+}
+
+a{
+  text-decoration: none;
+}
+
 /* FONT AWESOME */
 
 i{
@@ -22,23 +44,9 @@ i{
 }
 
 .fa.fa-star{
+  display: inline;
   margin: 0px;
   padding: 0px;
-}
-
-h3{
-  font-family: 'Raleway';
-  font-size: medium;
-  padding: 0px;
-  margin-top: 0px;
-  margin-bottom: 8px;
-}
-
-p{
-  font-family: 'Raleway';
-  font-size: small;
-  padding: 0px;
-  margin-top: 0px;
 }
 
 /* HEADER */
@@ -270,7 +278,7 @@ i.fa.fa-info{
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
   border: solid 1px #b8b5b5;
-  padding: 6px;
+  padding: 10px;
 }
 
 .aside-info{
@@ -279,7 +287,7 @@ i.fa.fa-info{
   font-family: 'Raleway';
   font-size: medium;
   margin: 0px;
-  margin-left: 10px;
+  margin-left: 8px;
 }
 
 /* ACCOMMODATIONS */
@@ -335,7 +343,7 @@ i.fa.fa-info{
 .accommodations-marseille-card{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
   background-color: white;
   border-radius: 5%;
   border: solid white;
@@ -346,6 +354,7 @@ i.fa.fa-info{
   margin-bottom: 20px;
   margin-left: 10px;
   margin-right: 10px;
+  
 }
 
 .accommodations-marseille-card a{
@@ -373,8 +382,8 @@ i.fa.fa-info{
   display: block;
   justify-content: left;
   margin: 0px;
-margin-top: 1px;
-padding-top: 0px;
+  padding-left: 25px;
+  padding-bottom: 15px;
 }
 .accommodations-marseille-more-heading{
   display: flex;
@@ -456,13 +465,14 @@ padding-top: 0px;
 /* ACTIVITIES */
 
 #activities-container{
-display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    max-width: 100%;
-    margin: 0px 32px;
-    margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 100%;
+  margin: 0px 32px;
+  margin-bottom: 32px;
+
 }
 
 .activities-marseille-heading{
@@ -472,44 +482,51 @@ display: flex;
 }
 
 .activities-marseille{
-display: inline-flex;
-flex-direction: row;
-box-sizing: border-box;
-justify-content: space-between;
-margin-bottom: 30px;
+  display: inline-flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 .activities-card{
   display: block;
-  box-shadow: 0 0 3px #b8b5b5;
+  box-shadow: 0 0 10px #b8b5b5;
   border-radius: 5%;
   width: 23em;
   height: 37.5em;
 }
 
 .activities-button{
-  display: flexbox;
+  display: block;
   text-decoration: none;
   border: none;
- 
   background-color: white;
-  padding-right: 65px;
+  box-shadow: 0 0 10px #b8b5b5;
+  border-radius: 5%;
 }
 
 .activities-double{
-  margin: 0%;
-  padding: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 19.2em;
+  height: 31em;
+  border: none;
+}
+.activities-double a{
+  text-decoration: none;
+  border: none;
   font-size: 0;
-
 }
 
 .activities-card-double{
   display: flexbox;
-  box-shadow: 0 0 3px #b8b5b5;
+  box-shadow: 0 0 10px #b8b5b5;
   border-radius: 5%;
   width: 23em;
   height: 18em;
-
+  margin: 0px;
 }
 
 .activities-card-img{
@@ -532,19 +549,25 @@ margin-bottom: 30px;
   border-top-left-radius: 5%;
 }
 
-.activities-card-text{
+.activity-card-text{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 25px;
+  padding-top: 15px;
   font-family: 'Raleway';
-  font-size: x-large;
+  font-size: 15px;
+
 }
 
 /* FOOTER */
 
 #footer{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-background-color: #F2F2F2;
-padding: 15px 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #F2F2F2;
+  padding: 15px 32px;
 }
 
 .footer-column{
@@ -562,8 +585,6 @@ padding: 15px 32px;
   display: block;
   padding: 0%;
   list-style-type: none;
-
-
 }
 
 .list-items{
@@ -587,5 +608,3 @@ padding: 15px 32px;
   font-weight: bold;
 
 }
-
-
