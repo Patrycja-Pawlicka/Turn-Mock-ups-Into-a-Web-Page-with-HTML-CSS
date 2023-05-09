@@ -1,0 +1,10 @@
+@media all and (max-width:768px) {
+    body {
+      min-width: 300px;
+    }
+}
+    a {
+      display: block; 
+      margin: 30px auto;
+      width: 50%;
+    }
