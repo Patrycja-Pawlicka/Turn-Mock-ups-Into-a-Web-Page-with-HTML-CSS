@@ -346,6 +346,7 @@ i.fa.fa-info{
   justify-content: space-evenly;
   width: 100%;
   aspect-ratio: auto;
+  height: 50%;
 }
 
 .accommodations-marseille-link-button{
@@ -353,6 +354,7 @@ i.fa.fa-info{
   border: 0px;
   padding: 0px;
   margin: 0px;
+  width: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -372,6 +374,7 @@ i.fa.fa-info{
   overflow: hidden;
   flex: 1;
   margin-bottom: 15px;
+  height: 80%;
 
 }
 
@@ -385,11 +388,12 @@ i.fa.fa-info{
   border-top-left-radius: 5%;
   border-top-right-radius: 5%;
   border-bottom: 0;
-  justify-content: center;
+  justify-content: center; /* change to be on top of the card, cause it's slightly off*/
   width: 100%;
   margin-bottom: 8px;
   padding: 0px;
-  object-fit: contain;
+  object-fit: cover;
+  height: 70%;
 }
 .accommodations-marseille-card-img img{
   max-width: 100%;
