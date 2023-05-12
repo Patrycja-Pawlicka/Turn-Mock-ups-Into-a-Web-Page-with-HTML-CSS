@@ -350,17 +350,17 @@ i.fa.fa-info{
   margin-bottom: 15px;
 }
 
-.accommodations-marseille-link-button{
+.accommodations-marseille-cards-link-button{
   display: flex;
   text-decoration: none;
   border: 0px;
   padding: 0px;
   margin: 0px;
-  width: auto;
+  width: 32%;
   display: flex;
   justify-content: center;
   align-items: center;
-  aspect-ratio: 5/3;
+  aspect-ratio: 4/3;
 
 
 }
