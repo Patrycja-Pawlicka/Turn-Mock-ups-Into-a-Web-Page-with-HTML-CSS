@@ -24,7 +24,7 @@ button{
 h3{
   display: flex;
   font-family: 'Raleway';
-  font-size: medium;
+  font-size: 17px;
   padding: 0px;
   margin-top: 0px;
   margin-bottom: 5px;
@@ -34,9 +34,10 @@ h3{
 p{
   display: flex;
   font-family: 'Raleway';
-  font-size: small;
+  font-size: 14px;
   padding: 0px;
   margin-top: 0px;
+  margin-bottom: 5px;
 }
 
 a{
@@ -53,11 +54,12 @@ i{
   display: inline;
   margin: 0px;
   padding: 0px;
+  font-size: 14px;
 }
 
 /* HEADER */
 
-header {
+header  {
   display: flex;
   justify-content: space-between;
   position: relative;
@@ -118,15 +120,13 @@ font-weight: bold;
 #search{
   display: flex;
   height: 45px;
-
   margin: 0px 32px;
 }
 .search-location-marker{
   border-bottom-left-radius: 25%; 
   border-top-left-radius: 25%; 
   margin: 0px; 
-  padding-left: 20px; 
-  padding-right: 20px;
+  padding: 0px 20px;
   background-color: #F2F2F2;
 }
 .search-input{
@@ -155,6 +155,10 @@ font-weight: bold;
   margin: 0px; 
   padding-left: 10px; 
   padding-right: 10px;
+}
+
+i.far.fa-search{
+  display: none;
 }
 
 /* FILTERS */
@@ -327,31 +331,32 @@ i.fa.fa-info{
   font-family: 'Raleway';
   font-size: x-large;
   margin: 20px;
+  margin-bottom: 0px;
+  height: 5%;
   
 }
 
 .accommodations-marseille-cards{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
   max-width: 100%;
   margin: 20px;
   align-content: center;
   align-items: center;
+  height: 75%;
 }
 
 .acc-row{
   display: flex;
   justify-content: space-between;
   width: 100%;
-  aspect-ratio: auto;
-  height: 40%;
-  margin-bottom: 15px;
+  height: 45%;
+  margin-bottom: 0px;
 }
 
 .accommodations-marseille-cards-link-button{
-  display: flex;
   text-decoration: none;
   border: 0px;
   padding: 0px;
@@ -360,26 +365,22 @@ i.fa.fa-info{
   display: flex;
   justify-content: center;
   align-items: center;
-  aspect-ratio: 4/3;
-
-
+  aspect-ratio: 16/15;
 }
 
 .accommodations-marseille-card{
-  display: flex;
+  display: block;
   flex-wrap: wrap;
-  justify-content: left;
+  justify-content: space-between;
   background-color: white;
   border-radius: 5%;
   border: solid white;
+
   align-items: center;
   box-shadow: 0 0 10px #b8b5b5;
-  overflow: hidden;
   object-fit: fill;
   flex: 1;
-  margin-bottom: 15px;
   height: 100%;
-
 }
 
 .accommodations-marseille-card a{
@@ -392,20 +393,17 @@ i.fa.fa-info{
   border-top-left-radius: 5%;
   border-top-right-radius: 5%;
   border-bottom: 0;
-  justify-content: center; /* change to be on top of the card, cause it's slightly off*/
   width: 100%;
-  margin-bottom: 8px;
-  padding: 0px;
   object-fit: cover;
-  height: 70%;
+  height: 50%;
+  margin-bottom: 10px;
 }
 
 .accommodations-marseille-card-text{
   display: block;
-  justify-content: left;
   margin: 0px;
-  padding-left: 25px;
-
+  padding-left: 10px;
+  height: 40%;
 }
 
 .accommodations-marseille-more-heading{
@@ -413,14 +411,13 @@ i.fa.fa-info{
   align-content: center;
   margin: 20px;
   margin-right: 0px;
-
-
 }
 
 .accommodations-marseille-more-heading a{
   text-decoration:none;
   border:none;
   color: black;
+  height: 10%;
 }
 
 /* Most Popular */
@@ -432,6 +429,7 @@ aside{
   background-color: #F2F2F2;
   border-radius: 1.5%;
   width: 33%;
+  margin-bottom: 45px;
 }
 
 .most-pop-heading{
@@ -459,8 +457,8 @@ aside{
   border: 0px;
   padding: 0px;
   width: 100%;
-  height: 30%;
-  max-height: 30%;
+  height: 25%;
+  aspect-ratio: 16/8;
 }
 .most-pop-cards-link-button a{
   text-decoration: none;
@@ -484,7 +482,7 @@ aside{
   border-bottom-left-radius: 5%;
   border-bottom: 0;
   justify-content: center;
-  width: 50%;
+  width: 40%;
   height: 100%;
   margin: 0px;
   margin-right: 10px;
@@ -493,8 +491,8 @@ aside{
 
 .most-pop-text{
   display: block;
-  align-items: center;
-  justify-content: center;
+  padding-top: 10px;
+  width: 60%;
 }
 
 
@@ -519,12 +517,15 @@ aside{
   display: inline-flex;
   flex-direction: row;
   box-sizing: border-box;
-  justify-content: space-between;
   margin-bottom: 30px;
+  justify-content: space-around;
+  align-items: stretch;
 }
 
 .activities-card{
-  display: block;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
   box-shadow: 0 0 10px #b8b5b5;
   border-radius: 5%;
   width: 100%;
@@ -549,9 +550,8 @@ aside{
   background-color: white;
   box-shadow: 0 0 10px #b8b5b5;
   border-radius: 5%;
-  height: 95%;
+  height: 49%;
   width: 100%;
-  margin-bottom: 10px;
 }
 
 .activities-single{
@@ -564,19 +564,24 @@ aside{
 .activities-double{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   width: 24%;
   height: auto;
   border: none;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
 }
 .activities-double a{
   text-decoration: none;
   border: none;
   font-size: 0;
+  aspect-ratio: 16/12;
 }
 
 .activities-card-double{
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   box-shadow: 0 0 10px #b8b5b5;
   border-radius: 5%;
   width: 100%;
@@ -589,7 +594,7 @@ aside{
   margin: 0%;
   padding: 0%;
   width: 100%;
-  height: 90%;
+  height: 94%;
   border-top-right-radius: 5%;
   border-top-left-radius: 5%;
   object-fit: cover;
@@ -600,7 +605,7 @@ aside{
   margin: 0%;
   padding: 0%;
   width: 100%;
-  height: 80%;
+  height: 87%;
   border-top-right-radius: 5%;
   border-top-left-radius: 5%;
   object-fit: cover;
@@ -610,11 +615,11 @@ aside{
   display: flex;
   align-items: center;
   justify-content: left;
-  padding-left: 25px;
-  padding-top: 15px;
+  padding-left: 16px;
+  padding-bottom: 14px;
+  margin:  0px;
   font-family: 'Raleway';
-  font-size: 15px;
-
+  font-size: 18px;
 }
 
 /* FOOTER */
@@ -622,16 +627,16 @@ aside{
 footer{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-start;
   background-color: #F2F2F2;
   padding: 15px 32px;
-  align-items: left;
 }
 
 .footer-column{
   display: flex;
   justify-content: space-around;
   flex-direction: column;
+  padding-right: 100px;
 }
 
 .footer-heading{

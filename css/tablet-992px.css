@@ -120,78 +120,198 @@ header{
 
 /*ACCOMMODATIONS*/
 
-.acc-information{
-  display: flex;
-  justify-content: left;
+.acc-information i.fa.fa-info{
+  font-size: 25px;
+  width: 35px;
+  height: 35px;
+}
+
+.acc-information-text{
+  font-size: 25px;
 }
 
 #accommodations-container{
-  display: block;
-  flex-wrap: nowrap;
+  display: inline-flex;
   flex-direction: column;
-  margin: 0px 32px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 32px;
+  margin-bottom: 30px;
+  padding: 0px;
+}
+
+.acc-information{
+  display: flex;
+  justify-content: left;
+  margin: 0px;
+  padding: 0px 32px;
+  padding-bottom: 10px;
 }
 
 .accommodations-marseille{
+  display: block;
+  flex-direction: column;
+  justify-content: center;
   width: 100%;
+  margin: 32px;
   margin-bottom: 15px;
+  background-color: #f2f2f2;
+  border-radius: 2%;
+  padding: 0px;
+}
+
+.accommodations-marseille-heading{
+  font-size: 30px;
+  margin-top: 55px;
+  justify-content: center;
+}
+
+.accommodations-marseille-more-heading{
+  justify-content: center;
+}
+
+.acc-row{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.accommodations-marseille-cards-link-button{
+  width: 80%;
+  aspect-ratio: 16/10;
+}
+
+.accommodations-marseille-card{
+  height: 95%;
+}
+
+.accommodations-marseille-card-img{
+  height: 75%;
+}
+
+.accommodations-marseille-card-text{
+  padding-top: 10px;
+  height: 20%;
 }
 
 /*Most Popular*/
 
 aside{
   width: 100%;
+  margin: 32px;
+  padding: 0px;
+}
+
+.most-pop-heading{
+  font-size: 30px;
+  margin-top: 55px;
+  justify-content: center;
+}
+
+aside i.fa.fa-star{
+  display: none;
 }
 
 .most-pop-cards-link-button{
   padding-bottom: 20px;
+  height: 20%;
+  aspect-ratio: 16/6;
+}
+
+.most-pop-img{
+  object-fit: cover;
+  aspect-ratio: 4/3;
+}
+
+.most-pop-text{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 0px;
+}
+
+.most-pop-text h3{
+  padding-top: 15px;
+}
+
+.most-pop-stars{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 15px;
 }
 
 /*ACTIVITIES*/
 
+#activities-container{
+  display: flex;
+justify-content: center;
+  margin: 0px;
+  padding: 0px 32px;
+  padding-bottom: 20px;
+}
+
 .activities-marseille-heading{
-  font-family: 'Raleway';
-  font-size: x-large;
-  margin-bottom: 20px;
+  font-size: 40px;
 }
 
 .activities-marseille{
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  margin-bottom: 30px;
-  width: 100%;
-}
-
-.activities-card{
-  display: block;
-  box-shadow: 0 0 10px #b8b5b5;
-  border-radius: 5%;
-  width: 100%;
-  height: 100%;
-}
-
-.activities-button{
-  display: block;
-  text-decoration: none;
-  border: none;
-  background-color: white;
-  box-shadow: 0 0 10px #b8b5b5;
-  border-radius: 5%;
-  height: 100%;
-  width: 100%;
+  width: 91%;
 }
 
 .activities-single{
+  display: flex;
   width: 100%;
+  padding-bottom: 6px;
+}
+
+.activities-button{
+  display: flex;
+  aspect-ratio: 16/9;
+}
+
+.activities-card{
+  display: flex;
+}
+
+.activities-card-img{
+  height: 75%;
+  object-fit: fill;
+}
+
+.activity-card-text{
+  height: 25%;
+  font-size: 29px;
+  text-decoration: none;
 }
 
 .activities-double{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 5px;
   width: 100%;
 }
 
+.activities-double-button{
+  display: flex;
+  aspect-ratio: 16/9;
+}
+
+.activities-card-double{
+  display: flex;
+}
+
 .activities-card-img-double{
-  height: 90%;
+  display: flex;
+  height: 75%;
+}
+
+.activity-card-text{
+  display: flex;
+  height: 25%;
 }
 
 
