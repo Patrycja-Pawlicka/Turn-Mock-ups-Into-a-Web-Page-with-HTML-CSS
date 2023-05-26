@@ -148,7 +148,7 @@ header{
 
 i.fas.fa-map-marker-alt{
   font-size: 35px;
-  width: 100px;
+  width: 60px;
 }
 
 .search-input{
@@ -161,10 +161,10 @@ span{
   display: none;
 }
 
-i.far.fa-search{
-  display: initial;
-  width: 100px;
-  height: 100px;
+i.fa.fa-search {
+  display: inline-block;
+  width: 60px;
+  font-size: 35px;
 }
 
 .search-submit{

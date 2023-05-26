@@ -122,6 +122,11 @@ font-weight: bold;
   height: 45px;
   margin: 0px 32px;
 }
+
+i.fa.fa-search{
+  display: none;
+}
+
 .search-location-marker{
   border-bottom-left-radius: 25%; 
   border-top-left-radius: 25%; 
@@ -155,10 +160,6 @@ font-weight: bold;
   margin: 0px; 
   padding-left: 10px; 
   padding-right: 10px;
-}
-
-i.far.fa-search{
-  display: none;
 }
 
 /* FILTERS */
