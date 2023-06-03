@@ -28,6 +28,7 @@ h3{
   padding: 0px;
   margin-top: 0px;
   margin-bottom: 5px;
+  color: black;
   
 }
 
@@ -38,6 +39,7 @@ p{
   padding: 0px;
   margin-top: 0px;
   margin-bottom: 5px;
+  color: black;
 }
 
 a{
@@ -162,6 +164,10 @@ i.fa.fa-search{
   padding-right: 10px;
 }
 
+.search-submit:hover{
+  cursor: pointer;
+}
+
 /* FILTERS */
 
 #filters{
@@ -187,6 +193,22 @@ i.fa.fa-search{
 
 .filter-single-btn-text{
   font-weight: bold;
+}
+
+.low-cost-filter{
+  display: flex;
+}
+
+.family-friendly-filter{
+  display: flex;
+}
+
+.romantic-filter{
+  display: flex;
+}
+
+.pets-allowed-filter{
+  display: flex;
 }
 
 i.fa.fa-money-bill-wave{
@@ -267,6 +289,7 @@ i.fa.fa-dog{
   background-color: #0065FC;
   font-weight: bold;
   color: white;
+  cursor: pointer;
 }
 
 /* INFORMATION */
@@ -387,6 +410,7 @@ i.fa.fa-info{
 .accommodations-marseille-card a{
   text-decoration: none;
   border: none;
+  cursor: pointer;
 }
 
 .accommodations-marseille-card-img{
@@ -419,6 +443,7 @@ i.fa.fa-info{
   border:none;
   color: black;
   height: 10%;
+  cursor: pointer;
 }
 
 /* Most Popular */
@@ -463,7 +488,8 @@ aside{
 }
 .most-pop-cards-link-button a{
   text-decoration: none;
-  background-color: #F2F2F2
+  background-color: #F2F2F2;
+  cursor: pointer;
 }
 
 .most-pop-card{
@@ -669,4 +695,5 @@ footer{
   
 .list-items:hover{
   font-weight: bold;
+  cursor: pointer;
 }

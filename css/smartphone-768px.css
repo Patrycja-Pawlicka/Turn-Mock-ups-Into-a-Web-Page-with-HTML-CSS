@@ -202,6 +202,22 @@ i.fa.fa-search {
   flex-wrap: wrap;
 }
 
+.low-cost-filter{
+  order: 1;
+}
+
+.family-friendly-filter{
+  order: 3;
+}
+
+.romantic-filter{
+  order: 2;
+}
+
+.pets-allowed-filter{
+  order: 4;
+}
+
 i.fa.fa-money-bill-wave{
   border-top-right-radius: 60px;
   border-top-left-radius: 60px;
